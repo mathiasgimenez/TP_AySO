@@ -1,0 +1,167 @@
+cd repogit/
+git clone https://github.com/mathiasgimenez/repomathi.git
+ls
+cd..
+cd ..
+ls
+cd repogit/
+ls
+cd repomathi/
+ls
+history 
+history > historial.txt
+ls
+cat historial.txt 
+git status 
+ls
+git add .
+git status
+git commit -m "Mi Primer commit"
+git config --global user.email "gimenezmathias2021@gmail.com"
+git config --global user.name "Your Name"git config --global user.name "mathiasgimenez"
+git commit -m "Mi Primer commit"
+git config --global user.email "gimenezmathias2021@gmail.com"
+git config --global user.name "mathiasgimenez"
+git commit -m "Mi Primer commit"
+git push 
+ls
+git status
+exit
+ls
+whoami
+pwd
+echo "hola"
+echo?
+man ls
+ls
+pwd
+ls
+cd repogit/
+cd ..
+ls
+cd repogit/
+ls
+cd repomathi/
+ls
+cd ..
+ls
+pwd
+ls
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -l a
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls
+ls -l
+cd repogit/
+ls -l
+rm -r repomathi/
+sudo rm -r repomathi/
+ls -l
+pwd
+git clone git@github.com:mathiasgimenez/repomathi.git
+ls
+repomathi/
+cd repomathi/
+ls -l
+cd ..
+ls -l
+cd repomathi/
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+git status 
+git add .
+git status 
+git commit -m "primer commit 311"
+git push
+cat /etc/passwd
+head /etc/passwd
+he
+head -n2 /etc/passwd
+tail /etc/passwd
+tail -2 /etc/passwd
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+grep bash /etc/passwd > archivo2.txt
+ls
+cat archivo2.txt 
+cat << EOF
+LS
+ls
+cat << EOF > archivo3.txt
+linea 1
+linea 2
+linea 3
+EOF
+
+ls -l
+cat archivo3.txt 
+bc <<< 5+2
+bc <<< 8*4
+ls -l
+cat hola.txt 
+echo "saludos" >> hola.txt 
+cat hola.txt 
+cat archivo3.txt hola.txt  > archivo4.txt
+car archivo4.txt 
+cat archivo4.txt 
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+exit
+logout 
+cd repogit/
+ls
+cd TP_AySO/
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add
+git add datos_usuario.txt 
+git status 
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status 
+ls
+git add .
+git status 
+git add datos_usuario.txt 
+git status 
+git push 
+git status 
+ls
+cpuinfo
+/proc/
+cd /proc/
+ls
+cd cpu
+cd..
+cd repogit/TP_AySO/
+cat README.md 
+CD ..
+cd ..
+rm -r TP_AySO/
+LS
+ls
+sudo rm -r TP_AySO/
+ls
+git clone git@github.com:mathiasgimenez/TP_AySO.git
+ls
+cd TP_AySO/
+ls
+cat README.md 
+history -a
+history 
+ls
+ls -la $HOME
+history -a $HOME/.bash_history
